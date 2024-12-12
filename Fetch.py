@@ -2,7 +2,7 @@ def fetch(pumpkin, carrot, wood, hay, power):
 	while theLoopCheck(pumpkin, carrot, wood, hay, power):
 		while num_items(Items.Power) < power:
 			if enoughSeeds(Entities.Sunflower):
-				SunflowerField()
+				field(Entities.Sunflower)
 			elif enoughSeeds(Entities.Carrots):
 				field(Entities.Carrots)
 			else:

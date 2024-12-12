@@ -13,9 +13,6 @@ def needSeeds(type):
 	
 	if type == Entities.Pumpkin:
 		getSeeds(Items.Pumpkin_Seed)
-	
-	if type == Entities.Sunflower:
-		getSeeds(Items.Sunflower_Seed)
 		
 def buyTargets(type):
 	fs = get_world_size() * get_world_size()

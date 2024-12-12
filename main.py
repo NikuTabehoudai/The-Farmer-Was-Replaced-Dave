@@ -1,9 +1,9 @@
 clear()
-pumpkins = 1000
-carrots = 1000
-woods = 1000
-hays = 1000
-powers = 1000
+pumpkins = 3000
+carrots = 3000
+woods = 3000
+hays = 3000
+powers = 3000
 
 fetch(pumpkins,carrots,woods,hays,powers)
 

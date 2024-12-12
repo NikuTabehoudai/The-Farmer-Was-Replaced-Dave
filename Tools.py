@@ -7,8 +7,7 @@ def harvestWait():
 def even(int):
 	if int % 2 == 0:
 		return True
-	else:
-		return False
+	return False
 
 def enoughItems(item, target):
 	if num_items(item) < target:
@@ -16,15 +15,15 @@ def enoughItems(item, target):
 	return True
 	
 def theLoopCheck(pumpkin, carrot, wood, hay, power):
- if num_items(Items.Pumpkin) > pumpkin:
-  if num_items(Items.Carrot) > carrot:
-   if num_items(Items.Wood) > wood:
-    if num_items(Items.Hay) > hay:
-     if num_items(Items.Power) > power:
+ if enoughItems(Items.Pumpkin, pumpkin):
+  if enoughItems(Items.Carrot, carrot):
+   if enoughItems(Items.Wood, wood):
+    if enoughItems(Items.Hay, hay):
+     if enoughItems(Items.Power, power):
          return False
  return True
 	
-def sort(input):
+def sortSunflowers(input):
 	sortedlist = []
 	petals = 15
 	while petals > 6:

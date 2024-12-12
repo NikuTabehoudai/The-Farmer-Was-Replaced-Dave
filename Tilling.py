@@ -5,6 +5,9 @@ def needsSoil(type):
 	if type ==  Entities.Pumpkin:
 		return True
 	
+	if type == Entities.Sunflower:
+		return True
+	
 	return False
 	
 		
