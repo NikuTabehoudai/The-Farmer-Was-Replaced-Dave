@@ -4,4 +4,4 @@ The Farmer Was Replaced is a programming game where you control a farming drone,
 
 https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/
 
-These are the files of my current run, this is pre-maze
+These are the files of my current run, Pre Simulation Update.
